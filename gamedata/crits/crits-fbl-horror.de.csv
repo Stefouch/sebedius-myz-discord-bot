@@ -13,6 +13,6 @@ ref;injury;lethal;healMalus;timeLimit;timeLimitUnit;effect;healingTime
 55;Wahnvorstellung;false;0;0;;Du bist fest von einer völlig unwahren Sache überzeugt *(zum Beispiel, dass ein bestimmtes Volk nicht existiert.)*;3
 56;Halluzinationen;false;0;0;;Würfel jeden Tagesabschnitt auf MENSCHENKENNTNIS. Wenn der Wurf misslingt, erliegst du einer starken Halluzination. Die SL bestimmt die Details.;3
 61-62;Veränderte Persönlichkeit;false;0;0;;Deine Persönlichkeit wird auf fundamentale Weise geändert. Entscheide gemeinsam mit der SL, was diese Veränderung ist. *(Die Auswirkung sollte durch Rollenspiel ausgespielt werden.)*;-1
-63;Amnesie;false;0;0;;Du verlierst dein vollständiges Gedächtnis und kannst dich nicht mehr erinnern wer du oder die anderen Abenteurer sind. *(Diese Wirkung sollte durch Rollenspiel ausgespielt werden.)*;1
+63;Amnesie;false;0;0;;Du verlierst jede Erinnerung und weißt nicht mehr, wer du oder die anderen Abenteuerinnen sind. *(Die Auswirkung sollte durch Rollenspiel ausgespielt werden.)*;1
 64-65;Katatonisch;false;0;0;;Du starrst verständnislos in die Leere und reagierst auf keine äußeren Reize.;1
 66;Herzinfarkt;true;0;0;;Dein Herz kommt zum Stillstand und du stirbst vor lauter Angst.;0

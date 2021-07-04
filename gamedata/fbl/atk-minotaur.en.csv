@@ -1,0 +1,7 @@
+ref;name;base;damage;range;effect
+1;BULL FIST;8;1;0;A fur-clad fist hits an adventurer with full force. Roll for the attack with __**eight** Base Dice and Weapon Damage **1** (blunt force)__.
+2;HOOF KICK;9;1;0;Using his powerful legs, the Minotaur kicks the victim with its hooves. The attack uses __**nine** Base Dice and Weapon Damage **1** (blunt force)__. If the attack is successful, the adventurer is thrown to a `NEAR` distance, landing prone.
+3;HORN RUSH;10;2;0;The Minotaur lowers its head and with a snort, rushes toward an adventurer, intending to impale her on his sharp horns. Roll for the attack using __**ten** Base Dice and Weapon Damage **2** (stab wound)__.
+4;CLEAVING CHOP;10;;0;The beast swings its weapon above its head and brings it down with maximum force. The adventurer suffers an attack using __**ten** Base Dice (Weapon Damage according to the **weapon**), ignoring three points of armor__. The attack may be `PARRIED`.
+5;SWEEPING ATTACK;8;;0;Roaring, the Minotaur sweeps its weapon in a wide arc, hitting everyone within `ARM’S LENGTH`. Roll for an attack using __**eight** Base Dice (Weapon Damage according to the **weapon**)__ against each victim.
+6;STOMPING ATTACK;12;1;0;The Minotaur jumps high in the air, landing hard on top of the adventurer. The victim is felled to the ground if hit. The attack is performed using __**twelve** Base Dice and Weapon Damage **1** (blunt force)__.

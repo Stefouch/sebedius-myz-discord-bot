@@ -1,0 +1,7 @@
+ref;name;base;damage;range;effect
+1;SURPRISING STRIKE;6;2;0;The Dire Wolf circles around its opponent until the opportune moment – then it lunges and strikes with its claws. The target suffers an attack with __**six** Base Dice and Weapon Damage **2** (slash wound)__. The target can’t `DODGE` the attack.
+2;FORCEFUL BITE;8;2;0;The Dire Wolf throws itself against the closest adventurer and buries its teeth in their flesh. The target suffers an attack with __**eight** Base Dice and Weapon Damage **2** (slash wound)__.
+3;FOUL BITE;6;2;0;The beast bites and chews an adventurer with its filthy jaws. The opponent suffers an attack with __**six** Base Dice and Weapon Damage **2** (slash wound)__. If damage is dealt, the victim also suffers a __disease with **Virulence 6**__.
+4;LEAPING ATTACK;8;1;1;The Dire Wolf leaps with all its might towards an adventurer within `NEAR` distance. The target suffers an attack with __**eight** Base Dice and Weapon Damage **1** (blunt trauma)__. If the attack hits, the target is knocked prone and then suffers an extra attack with __**five** Base Dice and Weapon Damage **2** (slash wound)__. This extra attack can’t be `DODGED`.
+5;THREATENING GROWL;5;;1;The Dire Wolf circles its opponents and growls and yaps. All within `NEAR` distance suffer a __fear attack with **five** Base Dice__.
+6;ABYSSAL ROAR;6;1;1;A deafening roar stuns all within `NEAR` distance of the Dire Wolf. Each opponent within range suffers an attack with __**six** Base Dice and Weapon Damage **1**__. The attack inflicts damage to `AGILITY`.

@@ -1,0 +1,7 @@
+ref;name;base;damage;range;effect
+1;CRUSHING BLOW;12;2;0;The Giant swings its weapon over its head and slams it with all its power against an adventurer. Roll for the attack with __**twelve** Base Dice and Weapon Damage **2** (blunt force)__. If the attack hits, the victim is also hurled to the ground.
+2;ROAR;6;;1;The Giant lets out a deep, bellowing sound that terrifies all adventurers within `NEAR` range. Roll for a __fear attack with **six** Base Dice__.
+3;STOMP ATTACK;10;1;1;The Giant tries to stomp two adventurers within `NEAR` range. Roll for the attacks with __**ten** Base Dice and Weapon Damage **1** (blunt force)__. A victim who is hit is also smashed to the ground.
+4;SWEEPING BLOW;9;2;1;The Giant swings its weapon against all adventurers within `NEAR` range. Roll for each attack with __**nine** Base Dice and Weapon Damage **2**__. All victims who are hit are also tossed to the ground.
+5;CANNONBALL;11;1;1;The giant is fed up with an adventurer within `NEAR` range and tries to throw her away. Roll for the attack with __**eleven** Base Dice and Weapon Damage **1** (blunt force)__. If the attack hits, the victim is thrown to `SHORT` range and lands prone.
+6;MASHING ATTACK;10;1;1;In a rage, the Giant stomps and smashes wildly around itself. Everyone within `NEAR` range is attacked with __**ten** Base Dice and Weapon Damage **1** (blunt force)__. All victims that are hit are also thrown to the ground.

@@ -1,0 +1,7 @@
+ref;name;base;damage;range;effect
+1;BULLENFAUST;8;1;0;Eine fellüberzogene Faust trifft eine Abenteurerin mit voller Wucht. Würfle für den Angriff mit __**acht** Basiswürfeln und Waffenschaden **1** (stumpfer Schlag)__.
+2;HUFTRITT;9;1;0;Der Minotaurus setzt seine starken Beine ein und tritt sein Opfer mit seinen Hufen. Dieser Angriff verwendet __**neun** Basiswürfel und Waffenschaden **1** (stumpfer Schlag)__. Ist der Angriff erfolgreich, wird das Opfer in `NAHE` Reichweite geschleudert und landet liegend.
+3;HORNANSTURM;10;2;0;Der Minotaurus senkt den Kopf und rennt mit wildem Schnauben auf eine Abenteurerin zu, um sie auf seinen spitzen Hörnern aufzuspießen. Würfle für den Angriff mit __**10** Basiswürfeln und Waffenschaden **2** (Stichwunde)__.
+4;SPALTENDER SCHLAG;10;;0;Das Monster schwingt seine Waffe über den Kopf und lässt sie mit ganzer Kraft niedersausen. Die Abenteurerin erleidet einen Angriff mit __**10** Basiswürfeln und Waffenschaden entsprechend der **Waffe**, welche 3 Punkte Rüstungsschutz ignoriert__. Diese Attacke kann `PARIERT` werden.
+5;UMREISSENDER ANGRIFF;8;;0;Wild brüllend schwingt der Minotaurus seine Waffe in weitem Bogen und trifft alle Abenteurer in `ARMESLÄNGE`. Würfle für den Angriff mit __**acht** Basiswürfeln und Waffenschaden entsprechend der **Waffe**__ gegen jedes Opfer.
+6;STAMPFANGRIFF;12;1;0;Der Minotaurus springt hoch in die Luft und landet hart auf einer der Abenteurer. Würfle für den Angriff mit __**12** Basiswürfeln und Waffenschaden **1** (stumpfer Schlag)__. Bei einem Treffer wird das Opfer zu Boden gerissen.

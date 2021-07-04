@@ -21,6 +21,7 @@ const CATALOG_SOURCES = {
 	MONSTERS: {
 		myz: './gamedata/myz/myz-monsters-catalog.en.csv',
 		alien: './gamedata/alien/alien-monsters-catalog.en.csv',
+		fbl: './gamedata/fbl/fbl-monsters-catalog.en.csv',
 	},
 };
 
@@ -238,9 +239,18 @@ class YZMonster extends YZObject {
 			this.attributes.speed = +this.speed || 1;
 			this.attributes.health = +this.hp || +this.health || +this.life || 0;
 		}
+		let attributeValue, maxValue, splitValues;
 		for (const validAttribute of ATTRIBUTES) {
 			if (this.hasOwnProperty(validAttribute)) {
-				this.attributes[validAttribute] = +this[validAttribute];
+				attributeValue = this[validAttribute];
+				maxValue = null;
+				if (typeof attributeValue === 'string' && attributeValue.includes('-')) {
+					splitValues = attributeValue.split('-');
+					attributeValue = +splitValues[0];
+					maxValue = +splitValues[1];
+				}
+				this.attributes[validAttribute] = +attributeValue;
+				if (maxValue) this.attributes[validAttribute + '-max'] = +splitValues[1];
 				delete this[validAttribute];
 			}
 		}
@@ -257,6 +267,19 @@ class YZMonster extends YZObject {
 			for (const ar of armorRatings) {
 				const ars = ar.split(':');
 				this.armor[ars[0]] = +ars[1];
+			}
+		}
+		else if (typeof this.armor === 'string' && this.armor.includes('-')) {
+			const armorRange = this.armor.split('-');
+			if (Util.isNumber(armorRange[0]) && Util.isNumber(armorRange[1])) {
+				this.armor = {
+					default: +armorRange[0],
+					max: +armorRange[1],
+					info: armorRange[2] || '',
+				};
+			}
+			else {
+				this.armor = { default: 0 };
 			}
 		}
 		else {
@@ -293,7 +316,7 @@ class YZMonster extends YZObject {
 				);
 			}
 			// Attack Parser
-			// Form: "{<name>:<bonus>:<damage>:[c|r]<range>[:<special>]}|{...}"
+			// Form: "{<name>:<bonus>:<damage>:[c|r]<range>[:<special>][:<(for fbl) attack as normal fighter (0/1)>]}|{...}"
 			// Range: the letter 'c' forces close combat, and 'r' forces ranged combat.
 			else if (this.attacks.includes('{') || this.attacks.includes('|')) {
 				// Multiple attacks are separated with the '|' character.
@@ -303,11 +326,11 @@ class YZMonster extends YZObject {
 				const out = [];
 				for (const atq of atqs) {
 					// Creates a weapon from the parsing.
-					if (/{.+:.*:.*:[cr]?\d?(:.*)?}/.test(atq)) {
+					if (/{[^:]+:[^:]*:[^:]*:[cr]?\d?(:[^:]*)?(:\d?)?}/.test(atq)) {
 						let wpnData;
 						atq.replace(
-							/{(.+):(.*):(.*):([cr]?\d?)(?::(.*))?}/,
-							(match, id, bonus, damage, range, special) => {
+							/{([^:]+):([^:]*):([^:]*):([cr]?\d?)(?::([^:]*))?(?::(\d?))?}/,
+							(match, id, bonus, damage, range, special, attackAsFighter) => {
 								let ranged = false;
 								if (range.startsWith('c') || range.startsWith('r')) {
 									ranged = range.charAt(0) === 'r';
@@ -322,6 +345,7 @@ class YZMonster extends YZObject {
 									range, ranged, special,
 									source: this.source,
 									lang: this.lang,
+									attackAsFighter: attackAsFighter || 0,
 								};
 							},
 						);
@@ -392,9 +416,12 @@ class YZMonster extends YZObject {
 	 */
 	attributesToString() {
 		const out = [];
+		let maxValue;
 		for (const key in this.attributes) {
+			if (key.endsWith('-max')) continue;
 			if (this.attributes[key] > 0) {
-				out.push(`${__(`attribute-${this.game}-` + key, this.lang)} **${this.attributes[key]}**`);
+				maxValue = this.attributes[key + '-max'] || null;
+				out.push(`${__(`attribute-${this.game}-` + key, this.lang)} **${this.attributes[key]}${maxValue ? '-' + maxValue : ''}**`);
 			}
 		}
 		if (!out.length) return `*${Util.capitalize(__('none', this.lang))}*`;
@@ -422,12 +449,13 @@ class YZMonster extends YZObject {
 	 */
 	armorToString() {
 		const armorTypes = Object.keys(this.armor);
-		let str = '' + this.armor.default;
+		let str = '' + this.armor.default
+		if (this.armor.max > 0) str += `-${this.armor.max}`;
+		if (this.armor.info) str = `${this.armor.info}\n` + str;
 		if (armorTypes.length > 1) {
-			str += ' (';
 			const out = [];
 			for (const type of armorTypes) {
-				if (type === 'default') {
+				if (type === 'default' || type === 'max' || type === 'info') {
 					continue;
 				}
 				else if (type === 'belly') {
@@ -437,7 +465,8 @@ class YZMonster extends YZObject {
 					out.push(`${this.armor[type]} ${__('vs', this.lang)} ${__(type, this.lang)}`);
 				}
 			}
-			str += out.join(', ') + ')';
+			str += out.length > 0 ? '\n' : '';
+			str += out.join('\n');
 			str = str.replace(/1000/g, __('impervious', this.lang));
 		}
 		return str;
@@ -532,9 +561,15 @@ class YZMonster extends YZObject {
 		}
 		// Unfixed roll.
 		else {
-			const b = attack.ranged ? this.agi : this.str;
-			const s = attack.ranged ? this.skills.shoot : this.skills.fight;
-			const g = attack.base;
+			let b, s, g;
+			if (this.game === 'fbl' && (attack.attackAsFighter || 0) === 0) {
+				b = attack.base;
+			}
+			else {
+				b = attack.ranged ? this.agi : this.str;
+				s = attack.ranged ? this.skills.shoot : this.skills.fight;
+				g = attack.base;
+			}
 			if (b) out.push(`${b}d[base]`);
 			if (s) out.push(`${s}d[skill]`);
 			if (g) out.push(`${g}d[gear]`);

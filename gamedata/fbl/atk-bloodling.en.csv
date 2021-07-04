@@ -1,0 +1,7 @@
+ref;name;base;damage;range;effect
+1;SLASHING THRUST;12;2;0;The Bloodling uses its arm to slash an adventurer. Roll an attack with __**twelve** Base Dice and Weapon Damage **2** (slash wound)__.
+2;WHIRLWIND ATTACK;8;2;0;The demon lets its arms sweep around it and hit every adventurer within `ARM`’S LENGTH. Roll for the attack with __**eight** Base Dice and Weapon Damage **2** (slash wound)__ against each target.
+3;DOUBLE STAB;10;2;0;The Bloodling suddenly appears between two adventurers and tries to impale them on its arms. Roll an attack against each adventurer with __**ten** Base Dice and Weapon Damage **2** (stab wound)__.
+4;HORRIBLE MIST;8;0;1;Each adventurer within `NEAR` range is engulfed by the Blood Mist, which fills their minds with fear. Roll __fear attacks with **eight** Base Dice__ against all victims.
+5;GOING FOR THE JUGULAR;10;2;1;The Bloodling throws itself upon the adventurer with the lowest Strength within `NEAR` range and tries to bite its throat. Roll an attack with __**ten** Base Dice and Weapon Damage **2** (slash wound)__. The attack damages both Strength and Wits. The victim, if hit, is also affected by a demonic infection with a __Virulence rating of **9**__.
+6;LIFE EXTRACTION;12;;1;The demon embraces an adventurer within `NEAR` range in a deadly embrace and tries to suck her life out through the mouth and eyes. Roll a __fear attack with **twelve** Base Dice__.

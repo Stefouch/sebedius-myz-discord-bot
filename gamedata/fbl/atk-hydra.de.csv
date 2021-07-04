@@ -1,0 +1,7 @@
+ref;name;base;damage;range;effect
+1;BISS;6;2;0;Der Kopf beißt die nächste Abenteurerin mit seinen scharfen Zähnen. Würfle für den Angriff mit __**sechs** Basiswürfeln und Waffenschaden **2** (Schnittwunde)__.
+2;SCHREI;5;;1;Der Kopf gibt einen markerschütternden Schrei von sich. Alle Abenteurer in `NAHER` Reichweite erleiden einen __Furchtangriff mit **fünf** Basiswürfeln__.
+3;KLAUENANGRIFF;7;1;0;Die Hydra schlägt mit ihren Klauen nach einer Abenteurerin in `ARMESLÄNGE`. Würfle für den Angriff mit __**sieben** Basiswürfeln und Waffenschaden **1** (Schnittwunde)__.
+4;SCHWANZSCHLAG;6;2;1;Das Monster schlägt mit seiner Schwanzspitze nach einer Abenteurerin in `NAHER` Reichweite. Würfle für den Angriff mit __**sechs** Basiswürfeln und Waffenschaden **2** (Stichwunde)__.
+5;FESTGEBISSEN;7;1;0;Die Hydra beißt eine Abenteurerin in `ARMESLÄNGE`. Würfle für den Angriff mit __**sieben** Basiswürfeln und Waffenschaden **1** (Schnittwunde)__. Ist der Angriff erfolgreich, hält die Hydra die Abenteurerin in ihrem Maul fest und greift sie in der nächsten Runde mit einem zusätzlichen Basiswürfel an. Dies wiederholt sich einmal pro Runde, bis sie Abenteurerin `GEBROCHEN` oder der Kopf besiegt ist.
+6;SÄURESPEIEN;7;1;1;Der Kopf spuckt Säure auf eine Abenteurerin in `NAHER` Reichweite. Würfle für den Angriff mit __**sieben** Basiswürfeln und Waffenschaden **1**__. Ist der Angriff erfolgreich, erleidet das Opfer für D3 Runden einen Punkt Schaden pro Runde.

@@ -1,0 +1,7 @@
+ref;name;base;damage;range;effect
+1;SPORE ATTACK;0;;1;The creature emits a cloud of spores in the direction of an adventurer within `NEAR` range. The victim is attacked by a __paralyzing poison with **Potency 8**__.
+2;STRANGLE ATTACK;6;1;1;Vines ensnare all adventurers within `NEAR` range. Roll for the attacks with __**six** Base Dice and Weapon Damage **1** (blunt force)__. All victims hit are thrown to the ground.
+3;WHIPPING VINE;8;2;1;A thick vine whips an adventurer within `NEAR` range. Roll for the attack with __**eight** Base Dice and Weapon Damage **2** (blunt force)__. If the attack hits, the adventurer is thrown to the ground.
+4;DEADLY EMBRACE;8;1;1;A tangle of vines ensnares an adventurer within `NEAR` range. Roll for the attack with __**eight** Base Dice and Weapon Damage **1** (blunt force)__. If the attack hits, the adventurer is `GRAPPLED`.
+5;PENETRATING ATTACK;10;2;1;A vine tries to force its way into a body cavity (such as the mouth, the eyes or the ears) of an adventurer within `NEAR` range. Roll for the attack with __**ten** Base Dice and Weapon Damage **2** (slash wound)__. The attack damages both `STRENGTH` and `EMPATHY` due to the horrifying experience.
+6;POISONOUS CLOUD;0;;1;The creature’s purple flowers open up and emit a cloud of spores that affects all adventurers within `NEAR` range. All suffer the effects of a __paralyzing poison with **Potency 8**__.

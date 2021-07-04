@@ -1,0 +1,7 @@
+ref;name;base;damage;range;effect
+1;VERNICHTENDER SCHLAG;12;2;0;Der Riese schwingt seine Waffe über den Kopf und lässt sie mit aller Macht auf eine Abenteurerin niederrauschen. Würfle für den Angriff mit __**12** Basiswürfeln und Waffenschaden **2** (stumpfer Schlag)__. Bei einem Treffer wird das Opfer zudem zu Boden geworfen.
+2;BRÜLLEN;6;;1;Der Riese gibt ein tiefes, durchdringendes Brüllen von sich, das alle Abenteurer in `NAHER` Reichweite erschreckt. Würfle einen __Furchtangriff mit **sechs** Basiswürfeln__.
+3;STAMPFANGRIFF;10;1;1;Der Riese versucht, auf zwei Abenteurer in `NAHER` Reichweite zu treten. Würfle für die Angriffe mit __**10** Basiswürfeln und Waffenschaden **1** (stumpfer Schlag)__. Ein getroffenes Opfer wird außerdem zu Boden geworfen.
+4;UMREISSENDER SCHLAG;9;2;1;Der Riese schwingt seine Waffe gegen alle Abenteurer `NAHER` Reichweite. Würfle für jeden Angriff mit __**neun** Basiswürfeln und Waffenschaden **2**__. Alle getroffenen Opfer werden zudem zu Boden geworfen.
+5;KANONENKUGEL;11;1;1;Der Riese hat genug von einer Abenteurerin in `NAHER` Reichweite und versucht, sie von sich zu schleudern. Würfle für den Angriff mit __**11** Basiswürfeln und Waffenschaden **1** (stumpfer Schlag)__. Bei einem Treffer wird das Opfer in `KURZE` Reichweite geschleudert und landet liegend.
+6;ZERMATSCHEN;10;1;1;Voller Wut stampft und schlägt der Riese wild um sich. Alle in `NAHER` Reichweite werden mit __**10** Basiswürfeln und Waffenschaden **1** (stumpfer Schaden)__ angegriffen. Alle getroffenen Opfer werden außerdem zu Boden geworfen.

@@ -1,0 +1,4 @@
+ref;name;base;damage;range;effect
+1-2;FLURRY OF BEAKS;6;2;2;The flock attacks an opponent within `SHORT` range with their beaks. The birds hack and stab at the eyes. Perform an attack with __**six** Base Dice and Weapon Damage **2** (stab wound)__. The attack cannot be `DODGED`.
+3-4;SHARP WINGS;6;2;2;The flock surrounds an opponent within `SHORT` range and flap their sharp wings. Perform an attack with __**six** Base Dice and Weapon Damage **2** (slash wound)__. The victim must make a `MIGHT` roll (not an action) or be knocked prone.
+5-6;FRENZIED CACKLE;8;;2;The Stone Ravens cackle and screech hysterically as they perform a __fear attack with **eight** Base Dice__ against all opponents within `SHORT` range.

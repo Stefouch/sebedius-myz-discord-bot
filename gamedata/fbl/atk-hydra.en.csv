@@ -1,0 +1,7 @@
+ref;name;base;damage;range;effect
+1;BITE;6;2;0;The head bites the nearest adventurer with sharp teeth. Roll for the attack with __**six** Base Dice and Weapon Damage **2** (slash wound)__.
+2;SCREAM;5;;1;The head lets out a terrifying scream. All adventurers within `NEAR` range suffer a __fear attack with **five** Base Dice__.
+3;CLAW ATTACK;7;1;0;The Hydra tears with its claws at an adventurer within `ARM’S LENGTH`. Roll for the attack with __**seven** Base Dice and Weapon Damage **1** (slash wound)__.
+4;TAIL STRIKE;6;2;1;The beast lashes its tail spike against an adventurer within `NEAR` range. Roll for the attack with __**six** Base Dice and Weapon Damage **2** (stab wound)__.
+5;LOCKING BITE;7;1;0;The Hydra tries to bite an adventurer within `ARM’S LENGTH`. Roll for the attack with __**seven** Base Dice and Weapon Damage **1** (slash wound)__. If the attack succeeds, the adventurer is stuck in the jaws and will be attacked again in the next round, this time with an extra Base Die. This is repeated once per round until the adventurer is `BROKEN` or the head is defeated.
+6;ACID SPIT;7;1;1;The head spits acid against an adventurer within `NEAR` range. Roll for the attack with __**seven** Base Dice and Weapon Damage **1**__. If the attack hits, the victim suffers one point of damage for every round for D3 rounds.

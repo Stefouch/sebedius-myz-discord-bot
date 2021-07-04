@@ -478,6 +478,15 @@ class Sebedius extends Discord.Client {
 				const entry = new YZCrit(elem);
 				table.set(entry.ref, entry);
 			}
+			else if (type = "MONSTER_SIGNATURE_ATTACKS") {
+				let attack = {};
+				for (const key in elem) {
+					if (Util.isNumber(elem[key])) attack[key] = +elem[key];
+					else if (elem[key] === '') attack[key] = null;
+					else attack[key] = elem[key];
+				}
+				table.set(attack.ref, attack);
+			}
 			else if (elem.hasOwnProperty('ref')) {
 				table.set(elem.ref, elem);
 			}

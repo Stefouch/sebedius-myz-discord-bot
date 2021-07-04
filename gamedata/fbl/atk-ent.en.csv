@@ -1,0 +1,7 @@
+ref;name;base;damage;range;effect
+1;HORRIBLE ROAR;7;;1;The Ent lets out a terrifying roar. All adventurers within `NEAR` range suffer a __fear attack with **seven** Base Dice__.
+2;SWEEPING BLOW;8;1;1;The Ent swings its large trunk against two adventurers within `NEAR` range. Roll for the attacks with __**eight** Base Dice and Weapon Damage **1** (blunt force)__. Victims who are hit are also thrown to the ground.
+3;GNARLY ROOTS;9;1;1;One adventurer within `NEAR` range is ensnared by thick roots. Roll for the attack with __**nine** Base Dice and Weapon Damage **1** (blunt force)__. If the attack succeeds, the victim is `GRAPPLED`. The roots have `STRENGTH` **3**.
+4;CRUSHING GRIP;10;1;0;The Ent grabs an adventurer and tries to rip her apart. Roll for the attack with __**ten** Base Dice and Weapon Damage **1** (blunt force)__.
+5;ENT HUG;8;1;0;The Ent embraces an adventurer and tries to devour her. Roll for the attack with __**eight** Base Dice and Weapon Damage **1** (blunt force)__. If the attack succeeds, the adventurer is trapped in the Ent’s body and can only escape by inflicting four points of damage in a single blow (or be saved from the outside).
+6;ROCK THROW;12;2;2;The Ent throws a huge boulder or another heavy object at an adventurer within `SHORT` range. Roll for the attack with __**twelve** Base Dice and Weapon Damage **2** (blunt force)__. If the attack hits, the victim is also thrown to the ground.

@@ -1,0 +1,7 @@
+ref;name;base;damage;range;effect
+1;SCHLITZENDER STOSS;12;2;0;Der Blutling nutzt seinen Arm, um die Abenteurerin aufzuschlitzen. Würfle einen Angriff mit __**12** Basiswürfeln und Waffenschaden **2** (Schnittwunde)__.
+2;WIRBELWINDATTACKE;8;2;0;Der Dämon wirbelt mit seinen Armen um sich und trifft alle Abenteurer in `ARMESLÄNGE`. Würfle für den Angriff mit __**acht** Basiswürfeln und Waffenschaden **2** (Schnittwunde)__ gegen jedes Ziel.
+3;DOPPELSTICH;10;2;0;Der Blutling erscheint plötzlich zwischen zwei Abenteurern und versucht, sie mit seinen Armen aufzuspießen. Würfle einen Angriff gegen jede Abenteurerin mit __**10** Basiswürfeln und Waffenschaden **2** (Stichwunde)__.
+4;SCHRECKLICHER NEBEL;8;0;1;Jede Abenteurerin in `NAHER` Reichweite wird von Blutnebel umgeben, der ihre Gedanken mit Angst erfüllt. Würfle __Furchtangriffe mit **acht** Basiswürfeln__ gegen alle Opfer.
+5;AN DIE KEHLE SPRINGEN;10;2;1;Der Blutling wirft sich auf die Abenteurerin mit der niedrigsten Stärke in `NAHER` Reichweite und versucht, ihr in den Hals zu beißen. Würfle einen Angriff mit __**10** Basiswürfeln und Waffenschaden **2** (Schnittwunde)__. Der Angriff schadet sowohl Stärke als auch Verstand. Bei einem Treffer leidet das Opfer außerdem an einer dämonischen Infektion mit __Ansteckungsgefahr **9**__.
+6;LEBENSENTZUG;12;;1;Der Dämon nimmt eine Abenteurerin in `NAHER` Reichweite in eine tödliche Umarmung und versucht, ihr durch den Mund und die Augen das Leben auszusaugen. Würfle einen __Furchtangriff mit **12** Basiswürfeln__.

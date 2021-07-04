@@ -1,0 +1,4 @@
+ref;name;base;damage;range;effect
+1-2;WIRBELNDE SCHNÄBEL;6;2;2;Der Schwarm greift eine Gegnerin in `KURZER` Reichweite mit den Schnäbeln an. Die Vögel hacken nach den Augen. Führe einen Angriff mit __**6** Basiswürfeln und Waffenschaden **2** (Stichwunde)__ aus. Dem Angriff kann man nicht `AUSWEICHEN`.
+3-4;GEWETZTE FLÜGEL;6;2;2;Der Schwarm umringt eine Gegnerin in `KURZER` Reichweite und schlägt mit den scharfen Flügeln nach ihr. Führe einen Angriff mit __**6** Basiswürfeln und Waffenschaden **2** (Schnittwunde)__ aus. Das Opfer muss auf `KRAFT` würfeln (keine Aktion), um nicht zu Boden geworfen zu werden.
+5-6;WILDES GEKRÄCHZE;8;;2;Die Steinraben keckern und krächzen aufgeregt. Führe gegen alle Gegner in `KURZER` Reichweite einen __Furchtangriff mit **8** Basiswürfeln__ aus.

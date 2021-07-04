@@ -63,7 +63,7 @@ class YZMonsterEmbed extends MessageEmbed {
 		this.addField(__('skills', monster.lang), monster.skillsToString(), true);
 		this.addField(__('signature-attacks', monster.lang), monster.attacksToString(), false);
 		if (monster.special) {
-			const special = monster.special.replace(/{mutation}/g, __('myz-random-mutation', monster.lang)).replace(/{feral}/g, __('myz-random-feral-effect', monster.lang));
+			const special = monster.special.replace(/\\n/g, '\n').replace(/{mutation}/g, __('myz-random-mutation', monster.lang)).replace(/{feral}/g, __('myz-random-feral-effect', monster.lang));
 			this.addField(__('special', monster.lang), special, false);
 		}
 

@@ -1,0 +1,7 @@
+ref;name;base;damage;range;effect
+1;TAIL SPIKE;9;2;2;The beast shoots a spike from its tail toward an adventurer within `SHORT` range. Roll for the attack with __**nine** Base Dice Weapon Damage and Weapon Damage **2** (stab wound)__. If the attack succeeds, the adventurer suffers the effects of a __paralyzing poison with **Potency 8**__.
+2;RAZOR SHARP BITE;9;2;0;The Manticore bites an adventurer within `ARM’S LENGTH`. Roll for the attack with __**nine** Base Dice and Weapon Damage **2** (slash wound)__.
+3;CLAW ATTACK;10;1;1;The Manticore claws at an adventurer within `NEAR` range. Roll for the attack with __**ten** Base Dice and Weapon Damage **1** (slash wound)__. If the attack succeeds, the adventurer is thrown to the ground.
+4;SWEEPING ATTACK;8;2;1;The manticore whips its tail against adventurers within `NEAR` range. Roll for the attack with __**eight** Base Dice and Weapon Damage **2** (blunt force)__. Any victims hit are thrown to the ground.
+5;CRUSHING CHARGE;10;2;1;With full force, the beast charges the adventurer with the highest `STRENGTH` within `NEAR` range. Roll for the attack with __**ten** Base Dice and Weapon Damage **2** (blunt force)__. If the attack succeeds, the victim is thrown to the ground.
+6;RAIN OF SPIKES;7;2;2;The manticore fires all its spikes against all adventurers within `SHORT` range. Roll for the attacks with __**seven** Base Dice and Weapon Damage **2** (stab wound)__. Adventurers who are hit are also affected with a __paralyzing poison with **Potency 8**__. This attack can only be used once per combat.

@@ -1,0 +1,7 @@
+ref;name;base;damage;range;effect
+1;CLAW ATTACK;7;1;1;The Wyvern tears at two adventurers within `NEAR` range. Roll for the attacks with __**seven** Base Dice and Weapon Damage **1** (slash wound)__.
+2;BITE ATTACK;10;2;0;The beast bites the nearest adventurer with razor sharp teeth. Roll for the attack with __**ten** Base Dice and Weapon Damage **2** (slash wound)__.
+3;DIVE ATTACK;9;2;1;The Wyvern dives onto an adventurer within `NEAR` range. Roll for the attack with __**nine** Base Dice and Weapon Damage **2** (slash wound)__. If the attack hits, the adventurer is thrown to the ground.
+4;RAM ATTACK;10;2;0;The creature flies with full force straight into an adventurer with its hard head. Roll for the attack with __**ten** Base Dice and Weapon Damage **2** (blunt force)__. If the attack hits, the victim is thrown to the ground.
+5;SHAKE ATTACK;9;2;0;The Wyvern tries to bite and violently shake an adventurer. Roll for the attack with __**nine** Base Dice and Weapon Damage **2** (slash wound)__. If the attack hits, the victim is thrown to `NEAR` distance from the Wyvern, and lands prone.
+6;FALL FROM THE SKY;8;;1;The beast grabs an adventurer within `NEAR` range and lifts her up into the sky. Roll for the attack with __**eight** Base Dice__. If the attack hits, the Wyvern and its victim both ascend to `SHORT` range from the ground. The next round, the victim is dropped and suffers the effects of a __fall from **2D6+10** meters__ (see page 113 in the Player’s Handbook).

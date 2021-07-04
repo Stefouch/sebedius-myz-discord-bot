@@ -1,0 +1,7 @@
+ref;name;base;damage;range;effect
+1;RAM;8;2;2;The Pikebeast throws itself against an opponent within `SHORT` distance and knocks it prone with its immense bulk. Make an attack with __**eight** Base Dice and Weapon Damage **2** (blunt trauma)__. The victim is knocked prone, even if it isn’t injured.
+2;BITE;9;2;0;The Pikebeast bites an opponent. Perform an attack with __**nine** Base Dice and Weapon Damage **2** (slash wound)__.
+3;CLOBBER;7;2;1;The Pikebeast uses its enormous front appendages to strike against an opponent within `NEAR` distance. The opponent suffers an attack with __**seven** Base Dice and Weapon Damage **2** (blunt trauma)__. The victim is knocked prone, even if it isn’t injured. The attack can’t be `DODGED`.
+4;SURGE;;;1;The Pikebeast leaps into the air and slams back into the water, causing a great surge of water to knock all opponents within `NEAR` range prone.
+5;PSYCHIC ATTACK;6;;1;The Pikebeast emits a psychic scream against all opponents within `NEAR` distance. The victims suffer a __fear attack with **six** Base Dice__.
+6;PIKE THRUST;10;3;0;The Pikebeast thrusts full force against the closest opponent. Perform an attack with __**ten** Base Dice and Weapon Damage **3** (stab wound)__.

@@ -1,0 +1,7 @@
+ref;name;base;damage;range;effect
+1;RAMMEN;8;2;2;Die Hornbestie wirft sich gegen eine Gegnerin in `KURZER` Reichweite und reißt sie mit ihrer immensen Masse von den Füßen. Führe einen Angriff mit __**8** Basiswürfeln und Waffenschaden **2** (Stumpfer Schlag)__ aus. Das Opfer wird auch dann zu Boden geworfen, wenn es keinen Schaden erleidet.
+2;BISS;9;2;0;Die Hornbestie beißt eine Gegnerin. Führe einen Angriff mit __**9** Basiswürfeln und Waffenschaden **2** (Schnittwunde)__ aus.
+3;VERKLOPPEN;7;2;1;Die Hornbestie schlägt mit ihren massiven vorderen Gliedmaßen gegen eine Gegnerin in `NAHER` Reichweite. Führe einen Angriff mit __**7** Basiswürfeln und Waffenschaden **2** (Stumpfer Schlag)__ aus. Das Opfer wird auch dann zu Boden geworfen, wenn es keinen Schaden erleidet. Dem Angriff kann man nicht `AUSWEICHEN`.
+4;STOSSWELLE;;;1;Die Hornbestie springt in die Höhe und schlägt wieder auf dem Wasser auf, dessen Stoßwelle alle Gegner in `NAHER` Reichweite zu Boden wirft.
+5;PSYCHISCHER ANGRIFF;6;;1;Die Hornbestie stößt einen psychischen Schrei aus. Führe gegen alle Gegner in `NAHER` Reichweite einen __Furchtangriff mit **6** Basiswürfeln__ aus.
+6;AUFGESPIESST;10;3;0;Die Hornbestie stößt mit aller Macht gegen die nächste Gegnerin. Führe einen Angriff mit __**10** Basiswürfeln und Waffenschaden **3** (Stichwunde)__ aus.

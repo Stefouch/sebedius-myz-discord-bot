@@ -1,0 +1,7 @@
+ref;name;base;damage;range;effect
+1;STONE STRIKE;8;2;0;The Stone Guardian clenches its fists and quickly strikes an opponent twice. The target suffers **two** attacks with __**eight** Base Dice and Weapon Damage **2** (blunt trauma)__.
+2;ICY ROAR;6;1;2;The Stone Guardian draws power from the magic that gives it life and emits an icy roar against an opponent within `SHORT` range. Roll for the attack with __**six** Base Dice, Weapon Damage **1**__. If the attack deals damage the victim becomes `COLD`.
+3;DISARMING GRIP;8;;0;The Stone Guardian tries to grab the opponent’s weapon. First, attack using __**eight** Base Dice__. The attack inflicts no damage, but if it succeeds, make an opposed `MIGHT` roll. If the Stone Guardian wins, it tears the weapon from the target’s hands and throws it aside.
+4;MIGHTY STOMP;;;2;The Stone Guardian stomps with full force, shaking the ground. Everyone within `SHORT` range must make a `MOVE` roll or fall prone.
+5;STONY EMBRACE;8;1;0;The Stone Guardian envelops an adventurer in a stony embrace. Roll for the attack with __**eight** Base Dice and Weapon Damage **1** (blunt trauma)__. If the victim suffers damage, they are `GRAPPLED` and must `BREAK FREE` to escape.
+6;HEADBUTT;8;2;0;The Stone Guardian simply walks up to an opponent and headbutts them. Roll for the attack with __**eight** Base Dice and Weapon Damage **2** (blunt trauma)__. If the victim suffers damage, they are knocked prone.

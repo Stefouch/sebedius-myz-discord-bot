@@ -152,8 +152,10 @@ module.exports = {
 						switch (dieCouple.toLowerCase()) {
 							case 'd6':
 							case 'd':
+								// similar logic to if it's a classic YZ roll phrase, just with t2k first.
 								if (game === 't2k') roll.addBaseDice(1);
-								else roll.addBaseDice(1);
+								// Everything else should be skill dice, even alien's base gets converted to skill on a classic YZ roll phrase
+								else roll.addSkillDice(1);
 								break;
 							case 'd8':
 							case 'c':
